@@ -6,6 +6,13 @@ name = "pypi"
 [packages]
 django = "==4.0.3"
 ipython = "*"
+pyping = "*"
+traceroute = "*"
+django-extensions = "*"
+django-crispy-forms = "*"
+mysqlclient = "*"
+django-mysql = "*"
+mysql-connector-python = "*"
 
 [dev-packages]
 
