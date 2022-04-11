@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <title>Server status</title>
 </head>
 <body>
-<h1>Hello</h1>
+{% for ping in result %}
+<h3>
+{{ ping }}
+</h3>
+{% endfor %}
+<h2>{{ status }}</h2>
+<h2>{{ db_status }}</h2>
 </body>
 </html>
