@@ -13,6 +13,7 @@ django-crispy-forms = "*"
 mysqlclient = "*"
 django-mysql = "*"
 mysql-connector-python = "*"
+pymysql = "*"
 
 [dev-packages]
 
